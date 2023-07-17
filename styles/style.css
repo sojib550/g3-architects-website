@@ -132,6 +132,18 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.sponsors{
+    text-align: center;
+}
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+
+}
 
 /* media quaries s */
 @media screen and (max-width: 576px) {
@@ -140,7 +152,9 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-card-container,
+    .sponsors-img-container {
         flex-direction: column;
     }
 
@@ -152,13 +166,17 @@ main {
         padding-right: 20px;
         padding-left: 20px;
     }
+    .sponsors-img-container{
+        width: 165px;
+    }
 
 }
 
 @media screen and (min-width:576px) and(max-width:1000px) {
 
     nav,
-    teams-container {
+    teams-container,
+    .sponsors-img-container {
         .header {
             padding: 50px;
         }
